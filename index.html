@@ -2,31 +2,286 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff">
-<title>Phạm Văn Chiêu — Backend & AI Developer</title><meta name="description" content="Portfolio của Phạm Văn Chiêu, kỹ sư phần mềm tại Hà Nội với kinh nghiệm Java, Spring Boot, FastAPI và ứng dụng AI.">
+<title>Phạm Văn Chiêu — Full-Stack & AI Developer</title><meta name="description" content="Portfolio của Phạm Văn Chiêu, Lập trình viên Full-Stack với kinh nghiệm Java Spring Boot, C# ASP.NET Core, Python FastAPI, React/Next.js và ứng dụng AI.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%233157df'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Arial' font-weight='700' font-size='40' fill='white'%3EC%3C/text%3E%3C/svg%3E"><script>try{const t=localStorage.getItem('chieu-theme');document.documentElement.dataset.theme=t==='dark'?'dark':'light'}catch{document.documentElement.dataset.theme='light'}</script><link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#main">Đến nội dung chính</a>
-<header class="header"><a class="logo" href="#" aria-label="Trang đầu">chiêu<span>.</span></a><nav aria-label="Điều hướng chính"><a href="#about">Giới thiệu</a><a href="#work">Dự án</a><a href="#experience">Kinh nghiệm</a><a class="nav-contact" href="#contact">Kết nối</a></nav><div class="preferences"><div class="language-switch" role="group" aria-label="Ngôn ngữ / Language"><button type="button" data-lang="vi" aria-pressed="true">VI</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div><button type="button" id="theme-toggle" class="theme-toggle" aria-label="Chuyển sang giao diện tối" aria-pressed="false"><svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20.8 13A9 9 0 0 1 11 3.2 9 9 0 1 0 20.8 13Z"/></svg><svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button></div><button class="menu" aria-label="Mở menu" aria-expanded="false">Menu <span>+</span></button></header>
+<header class="header">
+<a class="logo" href="#" aria-label="Trang đầu">chiêu<span>.</span></a>
+<nav aria-label="Điều hướng chính">
+<a href="#hero" class="nav-link active">Trang chủ</a>
+<a href="#about" class="nav-link">Giới thiệu</a>
+<a href="#skills" class="nav-link">Kỹ năng</a>
+<a href="#work" class="nav-link">Dự án</a>
+<a href="#experience" class="nav-link">Kinh nghiệm</a>
+<a class="nav-link nav-contact" href="#contact">Kết nối</a>
+</nav>
+<div class="preferences">
+<div class="language-switch" role="group" aria-label="Ngôn ngữ / Language"><button type="button" data-lang="vi" aria-pressed="true">VI</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+<button type="button" id="theme-toggle" class="theme-toggle" aria-label="Chuyển sang giao diện tối" aria-pressed="false"><svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20.8 13A9 9 0 0 1 11 3.2 9 9 0 1 0 20.8 13Z"/></svg><svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+</div>
+<button class="menu" aria-label="Mở menu" aria-expanded="false">Menu <span>+</span></button>
+</header>
 <main id="main">
-<section class="hero section-wrap" aria-labelledby="hero-title">
-<div class="hero-top"><span class="eyebrow">SOFTWARE DEVELOPER · HÀ NỘI, VIỆT NAM</span><span class="edition">PORTFOLIO / 2026</span></div>
+<section class="hero section-wrap" id="hero" aria-labelledby="hero-title">
+<div class="hero-top"><span class="eyebrow">FULL-STACK DEVELOPER · HÀ NỘI, VIỆT NAM</span><span class="edition">PORTFOLIO / 2026</span></div>
+<div class="hero-grid">
+<div class="hero-left">
 <h1 id="hero-title">Phạm Văn<br><span class="name-last">Chiêu<span class="period">.</span></span></h1>
-<div class="hero-bottom"><div class="hero-intro"><p class="role">Backend development.<br><span>Khám phá tiềm năng AI.</span></p><p class="intro-copy">Tôi xây dựng API, phát triển hệ thống backend và ứng dụng AI để giải quyết những bài toán thực tế.</p><div class="actions"><a class="button primary" href="#work">Khám phá dự án</a><a class="button secondary" href="2026_AI%20V_PhamVanChieu.pdf" download>Tải CV <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"/></svg></a></div></div><div class="hero-avatar"><img src="avatar.jpg" alt="Phạm Văn Chiêu" width="160" height="160"></div><div class="hero-note"><span class="note-label">TẬP TRUNG VÀO</span><p>Logic vững chắc.<br>Giải pháp thực tiễn.</p><div class="mini-stack"><span>Java</span><span>Python</span><span>C#</span></div></div></div>
+<div class="hero-intro">
+<p class="role">Lập trình Full-Stack.<br><span>Xây dựng sản phẩm web & giải pháp AI.</span></p>
+<p class="intro-copy">Tôi phát triển ứng dụng Web Full-Stack end-to-end, kết hợp giao diện người dùng mượt mà với hệ thống API & cơ sở dữ liệu vững chắc.</p>
+<div class="actions">
+<a class="button primary" href="#work">Khám phá dự án</a>
+<a class="button secondary" href="2026_AI%20COURSE_PhamVanChieu.pdf" download="2026_AI_COURSE_PhamVanChieu.pdf">Tải CV <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"/></svg></a>
+</div>
+</div>
+</div>
+<div class="hero-right">
+<div class="hero-portrait-card">
+<img src="avatar.jpg" alt="Phạm Văn Chiêu" width="380" height="480">
+</div>
+</div>
+</div>
 <div class="hero-footer"><span>01 — GIỚI THIỆU</span><a href="#about">Tìm hiểu thêm <span aria-hidden="true">↓</span></a></div>
 </section>
-<section class="about section-wrap section-border" id="about"><div class="section-label"><span class="index">01 /</span><h2>Đôi nét về tôi</h2></div><div class="about-main"><p class="statement">Từ những dòng code<br>đến <span>giải pháp hữu ích.</span></p><div class="about-columns"><p>Tôi là Phạm Văn Chiêu, tốt nghiệp ngành Kỹ thuật Phần mềm tại Đại học FPT. Kỳ thực tập tại FPT Academy giúp tôi xây dựng nền tảng phát triển backend với Java, Spring Boot và cơ sở dữ liệu.</p><p>Tôi quan tâm đến cách AI và thuật toán có thể giải quyết vấn đề thực tế. Từ hệ thống thương mại điện tử đến trợ lý email, tôi luôn tìm cơ hội để học hỏi và biến ý tưởng thành sản phẩm hoạt động.</p></div><div class="facts"><div><strong>03</strong><span>Dự án trong CV</span></div><div><strong>FPT</strong><span>Đại học · 2022–2026</span></div><div><strong>Backend + AI</strong><span>Định hướng phát triển</span></div></div></div></section>
-<section class="work section-wrap section-border" id="work"><div class="section-heading"><div class="section-label"><span class="index">02 /</span><h2>Dự án tiêu biểu</h2></div><span class="section-aside">Ý TƯỞNG. CÔNG NGHỆ. THỰC THI.</span></div>
-<article class="project featured"><div class="project-visual inbox-visual" aria-label="Các chức năng của dự án Inbox Triage Agent"><div class="visual-top"><span class="app-symbol">i<span>·</span></span><span>INBOX TRIAGE AGENT</span><span class="visual-badge">AI + RULES</span></div><div class="email-preview"><span class="preview-label">TỪ HỘP THƯ ĐẾN HÀNH ĐỘNG</span><h3>Ít nhiễu hơn.<br><span>Đúng ưu tiên hơn.</span></h3><div class="classification"><div><span class="class-icon">01</span><span>Phân loại email</span><span class="check">✓</span></div><div><span class="class-icon">02</span><span>Tóm tắt nội dung</span><span class="check">✓</span></div><div><span class="class-icon">03</span><span>Soạn nháp & lên lịch</span><span class="check">✓</span></div></div><div class="visual-bottom"><span>Gmail</span><span class="flow-line"></span><span>FastAPI + LLM</span><span class="flow-line"></span><span>Calendar</span></div></div></div><div class="project-info"><div class="project-meta"><span>01 / DỰ ÁN CÁ NHÂN</span><span>APPLIED AI</span></div><h3>Inbox Triage Agent</h3><p class="project-subtitle">Trợ lý email ứng dụng AI</p><p>Phân loại và tóm tắt Gmail theo bốn mức ưu tiên. Kết hợp AI với cơ chế dự phòng theo quy tắc, hỗ trợ tạo bản nháp trả lời và sự kiện lịch.</p><div class="tags"><span>Python · FastAPI</span><span>Next.js</span><span>Groq / Gemini</span><span>Google OAuth 2.0</span></div><button class="text-button" data-project="inbox">Khám phá dự án <span>+</span></button></div></article>
-<div class="project-grid"><article class="project compact"><div class="project-visual lms-visual"><div class="visual-top"><span class="app-symbol">L<span>·</span></span><span>LEARNING MANAGEMENT</span></div><div class="lms-art"><span class="preview-label">IELTS LEARNING & MANAGEMENT</span><h3>Học tập có tổ chức.</h3><div class="module-grid"><div><span>01</span><strong>Khóa học</strong><small>Course management</small></div><div><span>02</span><strong>Học liệu</strong><small>Learning materials</small></div><div><span>03</span><strong>Người dùng</strong><small>Users & parents</small></div><div><span>04</span><strong>Lịch học</strong><small>Scheduling constraints</small></div></div></div></div><div class="project-info"><div class="project-meta"><span>02 / ĐỒ ÁN TỐT NGHIỆP</span><span>2026</span></div><h3>IELTS Learning System</h3><p>Hệ thống quản lý học tập, khóa học và học liệu. Phát triển backend và đóng góp các ràng buộc cho bài toán xếp lịch.</p><div class="tags"><span>ASP.NET Core</span><span>SQL Server</span><span>EF Core</span></div><button class="text-button" data-project="ielts">Khám phá dự án <span>+</span></button></div></article>
-<article class="project compact"><div class="project-visual food-visual"><div class="visual-top"><span class="app-symbol">f<span>·</span></span><span>FASTFOOD E-COMMERCE</span></div><div class="food-art"><span class="preview-label">BACKEND COMMERCE FLOW</span><h3>Từ giỏ hàng<br>đến thanh toán.</h3><div class="commerce-flow"><div><span>01</span><strong>Sản phẩm</strong></div><span class="connector"></span><div><span>02</span><strong>Đơn hàng</strong></div><span class="connector"></span><div><span>03</span><strong>VNPay</strong></div></div><div class="security-label"><span aria-hidden="true">◈</span> SPRING SECURITY + OAUTH2</div></div></div><div class="project-info"><div class="project-meta"><span>03 / DỰ ÁN THỰC TẬP</span><span>2025</span></div><h3>FastFood E-commerce</h3><p>Backend thương mại điện tử với sản phẩm, giỏ hàng, đơn hàng, phân quyền người dùng và thanh toán trực tuyến VNPay.</p><div class="tags"><span>Java · Spring Boot</span><span>MySQL</span><span>VNPay</span></div><button class="text-button" data-project="food">Khám phá dự án <span>+</span></button></div></article></div>
+<section class="about section-wrap section-border" id="about">
+<div class="about-top-row">
+<div class="section-label"><span class="index">01 /</span><h2>Đôi nét về tôi</h2></div>
+<span class="section-aside">MỘT CHÚT BỐI CẢNH</span>
+</div>
+<div class="about-grid-layout">
+<div class="about-left-col">
+<h3 class="about-headline">Từ những dòng code<br><em class="serif-italic">đến giải pháp hữu ích.</em></h3>
+</div>
+<div class="about-right-col">
+<p class="about-paragraph" data-i18n="about_p1">Tôi là <strong>Phạm Văn Chiêu</strong>, tốt nghiệp ngành Kỹ thuật Phần mềm tại Đại học FPT. Kỳ thực tập tại FPT Academy và các dự án thực tế giúp tôi tích lũy nền tảng phát triển phần mềm toàn diện.</p>
+<p class="about-paragraph" data-i18n="about_p2">Tôi có kinh nghiệm phát triển hệ thống backend với Java Spring Boot, C# ASP.NET Core, Python FastAPI kết hợp với giao diện Web hiện đại (React, Next.js). Bên cạnh đó, tôi rất đam mê và định hướng phát triển sâu hơn về tích hợp các giải pháp AI vào ứng dụng thực tế.</p>
+<div class="about-meta-facts">
+<div class="fact-col"><span class="fact-meta-label">DỰ ÁN CÁ NHÂN</span><strong class="fact-meta-val">03 Dự án trong CV</strong></div>
+<div class="fact-col"><span class="fact-meta-label">HỌC VẤN</span><strong class="fact-meta-val">Đại học FPT (2022–2026)</strong></div>
+<div class="fact-col"><span class="fact-meta-label">ĐỊNH HƯỚNG</span><strong class="fact-meta-val">AI & Web Development</strong></div>
+</div>
+</div>
+</div>
 </section>
-<section class="experience section-wrap section-border" id="experience"><div class="section-label"><span class="index">03 /</span><h2>Hành trình</h2></div><div class="timeline"><article class="timeline-item"><span class="timeline-date">05.2025 — 08.2025</span><div><span class="eyebrow">KINH NGHIỆM</span><h3>Software Engineer Intern</h3><span class="organization">FPT Academy</span><p>Thực hành phát triển backend bằng Java và Spring Boot. Xây dựng REST API, làm việc với cơ sở dữ liệu và Spring Data JPA; phối hợp cùng đội nhóm để phát triển, kiểm thử và cải thiện các tính năng.</p></div></article><article class="timeline-item"><span class="timeline-date">2022 — 2026</span><div><span class="eyebrow">HỌC VẤN</span><h3>Kỹ thuật Phần mềm</h3><span class="organization">Đại học FPT</span><p>Bachelor of Software Engineering · GPA 3.0/4.0<br>Đồ án tốt nghiệp: IELTS Learning & Management System, nhóm 5 thành viên.</p></div></article></div></section>
-<section class="skills section-wrap section-border" id="skills"><div class="section-heading"><div class="section-label"><span class="index">04 /</span><h2>Công nghệ & kỹ năng</h2></div><span class="section-aside">BỘ CÔNG CỤ CỦA TÔI</span></div><div class="skill-grid"><article><span class="skill-number">{ 01 }</span><h3>Backend</h3><p>Java / Spring Boot<br>Python / FastAPI<br>C# / ASP.NET Core<br>Node.js / REST APIs</p></article><article><span class="skill-number">{ 02 }</span><h3>Frontend</h3><p>JavaScript / TypeScript<br>React / Next.js<br>Tailwind CSS</p></article><article><span class="skill-number">{ 03 }</span><h3>Data & công cụ</h3><p>MySQL / SQL Server / SQLite<br>Spring Data JPA / EF Core<br>Git / GitHub</p></article><article><span class="skill-number">{ 04 }</span><h3>AI & tích hợp</h3><p>LLM function calling<br>Groq / Gemini API<br>Google APIs / OAuth 2.0<br>VNPay integration</p></article></div></section>
-<section class="contact section-wrap" id="contact"><div class="contact-top"><span class="eyebrow">05 / CÙNG KẾT NỐI</span><span>HÀ NỘI, VIỆT NAM</span></div><h2>Một cuộc trò chuyện.<br><span>Nhiều khả năng mới.</span></h2><p>Tôi mong muốn trao đổi về cơ hội phát triển phần mềm,<br class="desktop-break"> các dự án backend và những ứng dụng AI thực tiễn.</p><a class="email-link" href="mailto:chieupham1011@gmail.com">chieupham1011@gmail.com</a><div class="contact-links"><a href="https://github.com/pvchiu" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/chieupham04" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="tel:+84896024980">+84 896 024 980</a><a href="2026_AI%20V_PhamVanChieu.pdf" download>Tải CV</a><button id="copy-email">Sao chép email</button></div><p id="copy-status" class="copy-status" role="status"></p></section>
+<section class="skills section-wrap section-border" id="skills">
+<div class="section-heading"><div class="section-label"><span class="index">02 /</span><h2>Công nghệ & kỹ năng</h2></div><span class="section-aside">BỘ CÔNG CỤ CỦA TÔI</span></div>
+<div class="skill-grid">
+<article><span class="skill-number">{ 01 }</span><h3>Frontend</h3>
+<ul class="skill-list">
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg> <span>JavaScript / TypeScript</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="2"/><ellipse cx="12" cy="12" rx="10" ry="4.5"/><ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(120 12 12)"/></svg> <span>React / Next.js</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/></svg> <span>Tailwind CSS</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3h16l-1.5 15.5L12 21l-6.5-2.5L4 3z"/></svg> <span>HTML5 / CSS3</span></li>
+</ul>
+</article>
+<article><span class="skill-number">{ 02 }</span><h3>Backend</h3>
+<ul class="skill-list">
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg> <span>Java / Spring Boot</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg> <span>C# / ASP.NET Core</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a5 5 0 0 0-5 5v3H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v1a5 5 0 0 0 10 0v-1h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2V7a5 5 0 0 0-5-5z"/></svg> <span>Python / FastAPI</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>Node.js / REST APIs</span></li>
+</ul>
+</article>
+<article><span class="skill-number">{ 03 }</span><h3>Cơ sở dữ liệu</h3>
+<ul class="skill-list">
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg> <span>MySQL / SQL Server</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7v10c0 2.21 3.58 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.58 4 8 4s8-1.79 8-4M4 7c0-2.21 3.58-4 8-4s8 1.79 8 4"/></svg> <span>SQLite / PostgreSQL</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> <span>Spring Data JPA</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg> <span>Entity Framework Core</span></li>
+</ul>
+</article>
+<article><span class="skill-number">{ 04 }</span><h3>Công cụ</h3>
+<ul class="skill-list">
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><line x1="6" y1="9" x2="6" y2="21"/></svg> <span>Git / GitHub</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> <span>GitHub Workflow</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> <span>Postman / REST Tools</span></li>
+<li><svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> <span>VS Code / IDEs</span></li>
+</ul>
+</article>
+</div>
+</section>
+<section class="work section-wrap section-border" id="work">
+<div class="section-heading"><div class="section-label"><span class="index">03 /</span><h2>Dự án tiêu biểu</h2></div></div>
+<div class="project-card-grid">
+<article class="project-card">
+<div class="project-preview-box">
+<div class="preview-header">
+<span class="preview-brand"><svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> INBOX TRIAGE AGENT</span>
+<span class="preview-tag">AI + RULES</span>
+</div>
+<div class="preview-body">
+<span class="preview-eyebrow">TỪ HỘP THƯ ĐẾN HÀNH ĐỘNG</span>
+<h4 class="preview-title">Ít nhiều hơn.<br><span class="accent-text">Đúng ưu tiên hơn.</span></h4>
+<div class="preview-checklist">
+<div class="check-item"><span>01 Phân loại email</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+<div class="check-item"><span>02 Tóm tắt nội dung</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+<div class="check-item"><span>03 Soạn nháp & lên lịch</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+</div>
+</div>
+<div class="preview-footer">
+<span>Gmail</span>
+<span class="flow-line">FastAPI + LLM</span>
+<span>Calendar</span>
+</div>
+</div>
+<div class="project-info-box">
+<div>
+<div class="project-card-header">
+<span class="project-meta-idx">01 / DỰ ÁN CÁ NHÂN</span>
+<span class="project-badge">APPLIED AI</span>
+</div>
+<h3>Inbox Triage Agent</h3>
+<p class="project-subtitle">Trợ lý email ứng dụng AI</p>
+<p class="project-desc">Phân loại và tóm tắt Gmail theo bốn mức ưu tiên. Kết hợp AI với cơ chế dự phòng theo quy tắc, hỗ trợ tạo bản nháp trả lời và sự kiện lịch.</p>
+</div>
+<div class="project-footer-wrapper">
+<div class="tags"><span>Python · FastAPI</span><span>Next.js</span><span>Groq / Gemini</span><span>Google OAuth 2.0</span></div>
+<div class="project-action-bar">
+<button class="text-button" data-project="inbox">Khám phá dự án <span>+</span></button>
+<a class="github-link" href="https://github.com/pvchiu/Inbox-Triage-Agent" target="_blank" rel="noopener noreferrer">GitHub <svg class="ext-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+</div>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-preview-box">
+<div class="preview-header">
+<span class="preview-brand"><svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> IELTS LEARNING SYSTEM</span>
+<span class="preview-tag">EDTECH + OR-TOOLS</span>
+</div>
+<div class="preview-body">
+<span class="preview-eyebrow">QUẢN LÝ ĐÀO TẠO THÔNG MINH</span>
+<h4 class="preview-title">Lịch học tối ưu.<br><span class="accent-text">Học liệu tập trung.</span></h4>
+<div class="preview-checklist">
+<div class="check-item"><span>01 Quản lý khóa học & học liệu</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+<div class="check-item"><span>02 Xếp lịch tự động CP-SAT</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+<div class="check-item"><span>03 Phân quyền 3 vai trò</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+</div>
+</div>
+<div class="preview-footer">
+<span>Student / Teacher</span>
+<span class="flow-line">ASP.NET Core</span>
+<span>SQL Server</span>
+</div>
+</div>
+<div class="project-info-box">
+<div>
+<div class="project-card-header">
+<span class="project-meta-idx">02 / ĐỒ ÁN TỐT NGHIỆP</span>
+<span class="project-badge">FULL-STACK</span>
+</div>
+<h3>IELTS Learning System</h3>
+<p class="project-subtitle">Hệ thống quản lý đào tạo IELTS</p>
+<p class="project-desc">Nền tảng quản lý học tập, khóa học, học liệu và bài thi. Xây dựng dịch vụ backend quản lý dữ liệu và đóng góp thuật toán xếp lịch học tối ưu.</p>
+</div>
+<div class="project-footer-wrapper">
+<div class="tags"><span>C# · ASP.NET Core</span><span>EF Core</span><span>SQL Server</span><span>Google OR-Tools</span></div>
+<div class="project-action-bar">
+<button class="text-button" data-project="ielts">Khám phá dự án <span>+</span></button>
+<a class="github-link" href="https://github.com/manhnguyenduc153/SEP490-G31" target="_blank" rel="noopener noreferrer">GitHub <svg class="ext-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+</div>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-preview-box">
+<div class="preview-header">
+<span class="preview-brand"><svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg> FASTFOOD E-COMMERCE</span>
+<span class="preview-tag">JAVA + VNPAY</span>
+</div>
+<div class="preview-body">
+<span class="preview-eyebrow">MUA SẮM TRỰC TUYẾN MƯỢT MÀ</span>
+<h4 class="preview-title">Thanh toán an toàn.<br><span class="accent-text">Đặt hàng tức thì.</span></h4>
+<div class="preview-checklist">
+<div class="check-item"><span>01 Giỏ hàng & quản lý đơn sắm</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+<div class="check-item"><span>02 Bảo mật Spring Security</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+<div class="check-item"><span>03 Thanh toán VNPay an toàn</span><svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+</div>
+</div>
+<div class="preview-footer">
+<span>User Storefront</span>
+<span class="flow-line">Spring Boot</span>
+<span>VNPay Gateway</span>
+</div>
+</div>
+<div class="project-info-box">
+<div>
+<div class="project-card-header">
+<span class="project-meta-idx">03 / DỰ ÁN THỰC TẬP</span>
+<span class="project-badge">FULL-STACK</span>
+</div>
+<h3>FastFood E-commerce</h3>
+<p class="project-subtitle">Nền tảng thương mại điện tử</p>
+<p class="project-desc">Hệ thống thương mại điện tử với đầy đủ quy trình từ chọn sản phẩm, giỏ hàng, đặt hàng đến xác thực bảo mật và thanh toán trực tuyến VNPay.</p>
+</div>
+<div class="project-footer-wrapper">
+<div class="tags"><span>Java · Spring Boot</span><span>MySQL</span><span>Spring Security</span><span>VNPay</span></div>
+<div class="project-action-bar">
+<button class="text-button" data-project="food">Khám phá dự án <span>+</span></button>
+<a class="github-link" href="https://github.com/pvchiu/FastFood-E-commerce-Platform" target="_blank" rel="noopener noreferrer">GitHub <svg class="ext-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<section class="experience section-wrap section-border" id="experience">
+<div class="section-label"><span class="index">04 /</span><h2>Hành trình</h2></div>
+<div class="timeline">
+<article class="timeline-item"><span class="timeline-date">05.2025 — 08.2025</span><div><span class="eyebrow">KINH NGHIỆM</span><h3>Software Engineer Intern</h3><span class="organization">FPT Academy</span><p>Thực hành phát triển phần mềm Full-Stack với Java, Spring Boot và Web standards. Xây dựng REST API, quản lý cơ sở dữ liệu với Spring Data JPA, bảo mật ứng dụng và phối hợp cùng đội nhóm để hoàn thiện các module nghiệp vụ.</p></div></article>
+<article class="timeline-item"><span class="timeline-date">2022 — 2026</span><div><span class="eyebrow">HỌC VẤN</span><h3>Kỹ thuật Phần mềm</h3><span class="organization">Đại học FPT</span><p>Bachelor of Software Engineering · GPA 3.0/4.0<br>Đồ án tốt nghiệp: IELTS Learning & Management System, nhóm 5 thành viên (Full-Stack).</p></div></article>
+</div>
+</section>
+<section class="contact section-wrap" id="contact">
+<div class="contact-top">
+<span class="eyebrow">05 / CÙNG KẾT NỐI</span>
+<span>HÀ NỘI, VIỆT NAM</span>
+</div>
+<div class="contact-grid">
+<div class="contact-left">
+<h2>Một cuộc trò chuyện.<br><span>Nhiều khả năng mới.</span></h2>
+<p>Tôi mong muốn trao đổi về cơ hội phát triển phần mềm,<br class="desktop-break"> các dự án Full-Stack web và những ứng dụng thực tiễn.</p>
+<div class="status-badge">
+<span class="status-dot"></span>
+<span>Sẵn sàng tiếp nhận cơ hội mới</span>
+</div>
+</div>
+<div class="contact-right">
+<div class="contact-card-box">
+<div class="contact-card-item">
+<span class="card-item-label">EMAIL LIÊN HỆ</span>
+<a class="email-link" href="mailto:chieupham1011@gmail.com">chieupham1011@gmail.com</a>
+<div class="email-action-row">
+<button id="copy-email" class="copy-email-btn">Sao chép email <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+<span id="copy-status" class="copy-status" role="status"></span>
+</div>
+</div>
+<div class="contact-card-divider"></div>
+<div class="contact-card-details">
+<div class="detail-row">
+<span class="detail-label">SỐ ĐIỆN THOẠI</span>
+<a href="tel:+84896024980" class="detail-val">+84 896 024 980</a>
+</div>
+<div class="detail-row">
+<span class="detail-label">KÊNH LIÊN KẾT</span>
+<div class="contact-links">
+<a href="https://github.com/pvchiu" target="_blank" rel="noopener noreferrer">GitHub</a>
+<a href="https://www.linkedin.com/in/chieupham04" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a href="2026_AI%20COURSE_PhamVanChieu.pdf" download="2026_AI_COURSE_PhamVanChieu.pdf">Tải CV</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 </main>
 <footer class="footer section-wrap"><a class="logo" href="#">chiêu<span>.</span></a><span>© <span id="year">2026</span> Phạm Văn Chiêu</span><a href="#">Về đầu trang ↑</a></footer>
-<dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Đóng chi tiết dự án">×</button><span class="eyebrow" id="dialog-category"></span><h2 id="dialog-title"></h2><p id="dialog-summary"></p><h3>Phần việc & chức năng</h3><ul id="dialog-details"></ul><h3>Công nghệ sử dụng</h3><div id="dialog-stack" class="tags"></div><a class="button primary" href="https://github.com/pvchiu" target="_blank" rel="noopener noreferrer">Xem hồ sơ GitHub</a></dialog>
+<dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Đóng chi tiết dự án">×</button><span class="eyebrow" id="dialog-category"></span><h2 id="dialog-title"></h2><p id="dialog-summary"></p><h3>Phần việc & chức năng</h3><ul id="dialog-details"></ul><h3>Công nghệ sử dụng</h3><div id="dialog-stack" class="tags"></div><a id="dialog-github" class="button primary" href="https://github.com/pvchiu" target="_blank" rel="noopener noreferrer">Xem hồ sơ GitHub</a></dialog>
 <script src="script.js"></script>
 </body></html>
-
