@@ -65,7 +65,7 @@ const translations = {
  'Dự án tiêu biểu':'Selected projects',
   '01 / DỰ ÁN CÁ NHÂN':'01 / PERSONAL PROJECT', 'FULL-STACK & AI':'FULL-STACK & AI', 'APPLIED AI':'APPLIED AI',
   'Trợ lý email ứng dụng AI':'AI-powered email assistant',
-  'Tự động hóa xử lý Gmail bằng LLM Function Calling, phân loại và tóm tắt email theo 4 cấp độ ưu tiên. Kết hợp kiến trúc Hybrid AI + Rule-based dự phòng linh hoạt, tự động trích xuất ngữ cảnh và khởi tạo bản nháp trả lời thông minh.':'Automates Gmail management using LLM Function Calling to classify and summarize emails into 4 priority levels. Combines a flexible Hybrid AI + Rule-based fallback architecture with intelligent context extraction and reply drafting.',
+  'Ứng dụng LLM Function Calling để tự động phân loại và tóm tắt Gmail theo 4 mức ưu tiên. Kết hợp linh hoạt giữa AI và cơ chế dự phòng quy tắc (rule-based), hỗ trợ trích xuất nội dung quan trọng và khởi tạo bản nháp trả lời thông minh.':'Uses LLM Function Calling to automatically classify and summarize Gmail messages into 4 priority levels. Combines AI with a flexible rule-based fallback mechanism to extract key information and generate smart reply drafts.',
   'TỪ HỘP THƯ ĐẾN HÀNH ĐỘNG':'FROM INBOX TO ACTION',
   'Ít nhiều hơn.':'Less clutter.',
   'Đúng ưu tiên hơn.':'More focus.',
