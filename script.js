@@ -51,7 +51,7 @@ const translations = {
  'FULL-STACK DEVELOPER · HÀ NỘI, VIỆT NAM':'FULL-STACK DEVELOPER · HANOI, VIETNAM',
  'Lập trình Full-Stack.':'Full-Stack Development.',
  'Xây dựng sản phẩm web & giải pháp AI.':'Building web products & AI solutions.',
- 'Tối ưu trải nghiệm người dùng với giao diện mượt mà, kết hợp hệ thống API & cơ sở dữ liệu vững chắc nhằm giải quyết hiệu quả các bài toán thực tế.':'Focusing on smooth UI/UX integrated with robust APIs & databases to solve real-world problems effectively.',
+ 'Tập trung xây dựng hệ thống web chuẩn xác, giao diện mượt mà và tích hợp các giải pháp AI tự động hóa công việc.':'Focused on building reliable web systems, smooth interfaces, and integrated AI solutions for workflow automation.',
  'Khám phá dự án':'Explore my work', 'Tải CV':'Download CV',
  '01 — GIỚI THIỆU':'01 — INTRODUCTION', 'Tìm hiểu thêm':'Get to know me', 'Đôi nét về tôi':'A little about me',
  'MỘT CHÚT BỐI CẢNH':'A LITTLE CONTEXT',
